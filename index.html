@@ -4,13 +4,19 @@
 <script src="JS/homepage.js" defer></script>
 <link rel="stylesheet" href="CSS/style.css">
 </head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Tic-Tac.html">Tic Tac</a></li>
+            <li><a href="#" onclick="displayDate(); return false;">Check JS Date</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
-<div class="top-right">
-	<a href="Tic-Tac.html" class="tictac-link">Tic Tac</a>
-	<a href="#" onclick="displayDate()" class="tictac-link">JS Time Check</a>
-</div>
+
 <button class="btn" type="button" onclick="displayDate()">
-Click me to display Date and Time.</button>
+Click me to check Date and Time!</button>
 
 </body>
 </html>
